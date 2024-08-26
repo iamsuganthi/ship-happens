@@ -2,10 +2,12 @@
 
 ## Hands on Exercise
 
-We will create two containers as follows
+We will create two containers as follows. Both will be pushed to DockerHub and both will then be monitored by Snyk
 
 * base image container 
 * application container image
+
+TODO:// Pas
 
 ## Run this app locally:
 ```
