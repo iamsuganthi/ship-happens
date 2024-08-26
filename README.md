@@ -1,4 +1,12 @@
 # ship-happens
+
+## Hands on Exercise
+
+We will create two containers as follows
+
+* base image container 
+* application container image
+
 ## Run this app locally:
 ```
 npm install
