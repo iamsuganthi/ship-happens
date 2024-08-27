@@ -91,10 +91,18 @@ snyk container monitor --org={ORG-ID} --project-name=snyk-boot-web pasapples/sny
 
 ![](images/offsite-se-4.png)
 
-From the image below you will see something quite different I will describe why once everyone is completed
+From the image below you will see something quite different for example
+
+1. The image is shown with multiple projects this is because we found application vulnerabilities in one of the image layers
+2. The base image scan is shown independently when application vulnerabilities exist
+3. There are two projects so automatically the image name/tag are shown
 
 
-## Run this app locally:
+
+## Hands on Exercise (Time : 10 Minutes)
+
+TODO:// suganthi 
+
 ```
 npm install
 npm start
@@ -104,6 +112,8 @@ Open Dockerfile\
 Use `npm install` to install dependencies\
 Expose port 3000\
 Run the app using `npm start`
+
+![](images/snyk-logo.png)
 
 <hr />
 
