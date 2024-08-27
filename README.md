@@ -46,7 +46,7 @@ $ docker push pasapples/simple-base-image
 - Now using snyk let's monitor this image as follows
 
 ```shell
-$ snyk container monitor --org=03c51a7e-3c0b-4852-812d-829b4e71a186 --project-name=simple-base-image pasapples/simple-base-image:latest
+$ snyk container monitor --org={ORG-ID} --project-name=simple-base-image pasapples/simple-base-image:latest
 ```
 
 - Snyk App Result Images
@@ -84,7 +84,7 @@ ENTRYPOINT ["java","-jar","/app/snyk-boot-web-0.0.1-SNAPSHOT.jar"]
 - This app has already been pushed to my Public DockerHub account, so we can just monitor it as follows
 
 ```shell
-snyk container monitor --org=03c51a7e-3c0b-4852-812d-829b4e71a186 --project-name=snyk-boot-web pasapples/snyk-boot-web:v1
+snyk container monitor --org={ORG-ID} --project-name=snyk-boot-web pasapples/snyk-boot-web:v1
 ```
 
 - Snyk App Result Images
