@@ -91,6 +91,10 @@ snyk container monitor --org={ORG-ID} --project-name=snyk-boot-web pasapples/sny
 
 ![](images/offsite-se-4.png)
 
+Suggestions for base image upgrade exists as image built from known images
+
+![](images/offsite-se-5.png)
+
 From the image below you will see something quite different for example
 
 1. The image is shown with multiple projects this is because we found application vulnerabilities in one of the image layers
