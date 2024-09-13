@@ -2,6 +2,19 @@
 
 ## Hands on Exercise (Time : 20 Minutes)
 
+### Exercise 1: Create Cloud Native App container
+
+1. ### To containerise this app:
+Open Dockerfile
+Use npm to install dependencies
+Expose port 3000
+Run the app using “npm start”
+
+2. ### Scan container using Snyk
+   `snyk container test ship-happens:latest`
+
+
+### Exercise 2: Create container with user instructions
 We will create two containers as follows. Both will be pushed to DockerHub and both will then be monitored by Snyk
 
 * base image container
@@ -15,7 +28,7 @@ What will we need to complete this hands on exercise?
 4. Docker Desktop
 5. Snyk Account app.snyk.io 
 
-### base image container
+### Base image container
 
 - The following example of taking a base Redhat image and adding some software to the image 
 
@@ -103,19 +116,6 @@ From the image below you will see something quite different for example
 
 
 
-## Hands on Exercise (Time : 10 Minutes)
-
-TODO:// suganthi 
-
-```
-npm install
-npm start
-```
-## To containerise this app:\
-Open Dockerfile\
-Use `npm install` to install dependencies\
-Expose port 3000\
-Run the app using `npm start`
 
 ![](images/snyk-logo.png)
 
